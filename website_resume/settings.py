@@ -30,8 +30,6 @@ DEBUG = env('DEBUG')
 
 ALLOWED_HOSTS = ["*"]  # py manage.py runserver 192.168.1.107:8000
 
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -41,12 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "rest_framework",
-    "rest_framework_swagger",
-    "rest_framework_simplejwt",
-
-    'bootstrap5',
-    'website_resume',
+    'core_site'
 
 ]
 
@@ -126,4 +119,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-AUTH_USER_MODEL = 'website_resume.User'
+# AUTH_USER_MODEL = 'core_site.User'
