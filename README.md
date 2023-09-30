@@ -9,3 +9,6 @@
 [//]: # (• После скачивания проекта к себе на компьютер не забудьте установить необходимые зависимости, прописав к консоли команду: )
 [//]: # (<code>pip install requirements.txt</code>)
 <br /> <br />
+Создание миграций: <code>python manage.py makemigrations</code><br />
+Проведение миграций: <code>python manage.py migrate</code><br />
+Загрузка сервера: <code>py manage.py runserver</code>
