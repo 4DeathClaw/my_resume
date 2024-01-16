@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 import os
 import environ
 import dj_database_url
+from django.core.exceptions import ImproperlyConfigured
+
 
 env = environ.Env(DEBUG=(bool, False))
 
