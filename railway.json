@@ -4,7 +4,7 @@
         "builder": "NIXPACKS"
     },
     "deploy": {
-        "startCommand": "python manage.py collectstatic --noinput && gunicorn My_resume.wsgi",
+        "startCommand": "python manage.py makemigrations && python manage.py migrate && python manage.py collectstatic --noinput && gunicorn website_resume.wsgi",
         "restartPolicyType": "ON_FAILURE",
         "restartPolicyMaxRetries": 10
     }
