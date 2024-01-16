@@ -13,13 +13,14 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 import os
 import environ
 import dj_database_url
-from django.core.exceptions import ImproperlyConfigured
 
 
 env = environ.Env(DEBUG=(bool, False))
 
 # Set the project base directory
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+print(os.path.join(BASE_DIR, '.env'))
 
 # Take environment variables from .env file
 environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
@@ -115,11 +116,16 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+# STATICFILES_DIRS = [
+#     BASE_DIR + '/static'
+# ]
+# STATIC_ROOT = BASE_DIR + '/static'
+
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-    BASE_DIR + '/static'
+    os.path.join(BASE_DIR, "static")
 ]
-# STATIC_ROOT = BASE_DIR + '/static'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
