@@ -20,7 +20,6 @@ env = environ.Env(DEBUG=(bool, False))
 # Set the project base directory
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-print(os.path.join(BASE_DIR, '.env'))
 
 # Take environment variables from .env file
 environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
@@ -80,7 +79,7 @@ WSGI_APPLICATION = 'website_resume.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {"default": dj_database_url.config(default=env("DATABASE_URL"))}
+DATABASES = {"default": dj_database_url.config(default=env("DATABASE_PRIVATE_URL"))}  # DATABASE_URL
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
