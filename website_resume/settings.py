@@ -34,13 +34,13 @@ DEBUG = env('DEBUG')
 ALLOWED_HOSTS = ['*']
 
 CORS_ALLOWED_ORIGINS = [
-    'my-resume.up.railway.app/',
+    'https://my-resume.up.railway.app/',
     'https://127.0.0.1',
     'https://192.168.1.55',
     'https://192.168.1.104'
 ]
 CSRF_TRUSTED_ORIGINS = [
-    'my-resume.up.railway.app/',
+    'https://my-resume.up.railway.app/',
     'https://127.0.0.1',
     'https://192.168.1.55',
     'https://192.168.1.104'
@@ -126,7 +126,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
-    os.path.join(BASE_DIR, "staticfiles")
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
