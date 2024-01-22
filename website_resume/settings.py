@@ -11,8 +11,10 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 import os
-import environ
+from pathlib import Path
+
 import dj_database_url
+import environ
 
 
 env = environ.Env(DEBUG=(bool, False))
@@ -74,7 +76,7 @@ ROOT_URLCONF = 'website_resume.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR + '/templates'],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],  # BASE_DIR + '/templates'
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
