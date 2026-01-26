@@ -11044,3 +11044,94 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+/* Custom Project Cards Styles */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  font-size: 0.85rem;
+  padding: 0.4em 0.8em;
+}
+
+/* Modal Improvements */
+.portfolio-modal .modal-body {
+  padding: 2rem;
+}
+
+.portfolio-modal h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.portfolio-modal h4 {
+  color: #2c3e50;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.portfolio-modal h5 {
+  color: #1abc9c;
+  font-weight: 600;
+}
+
+.portfolio-modal ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.portfolio-modal ul li {
+  padding-left: 1.5rem;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-modal ul li:before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: #1abc9c;
+  font-weight: bold;
+}
+
+/* Skills Section */
+#skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#skills ul li {
+  padding-left: 1.5rem;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+#skills ul li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #1abc9c;
+  font-weight: bold;
+}
+
+/* Projects Section Enhancements */
+#projects h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+#projects .lead {
+  font-size: 1.1rem;
+}

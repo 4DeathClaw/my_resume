@@ -39,33 +39,36 @@
 # Структура проекта
     My_resume
     │
-    ├── api/
-    │   ├── app.py
-    │   └── middlewares.py
+    ├── core_site/
+    │   ├── migrations/
+    │   ├── admin.py
+    │   ├── apps.py
+    │   ├── models.py
+    │   ├── tests.py
+    │   └── views.py
     │
-    ├── data_processing/
-    │   ├── database.py
-    │   ├── degree_info.py
-    │   ├── get_applicants.py
-    │   ├── get_data.py
-    │   └── push_data.py
+    ├── static/
+    │   ├── assets/
+    │   ├── css/
+    │   ├── files/
+    │   └── js/
     │
-    ├── parsing/
-    │   ├── parsers/
-    │   │   ├── bachelors_degree.py
-    │   │   ├── master_degree.py
-    │   │   └── specialty_degree.py
-    │   ├── pom/ 
-    │   │   ├── base_page.py
-    │   │   ├── locators.py
-    │   │   └── page_object.py
-    │   └── temporary_files/
+    ├── templates/
+    │   ├── base.html
+    │   ├── index.html
+    │   └── main.html
     │
+    ├── website_resume/
+    │   ├── asgi.py
+    │   ├── settings.py
+    │   ├── urls.py
+    │   └── wsgi.py
+    │
+    ├── .env
     ├── .gitignore
-    ├── main.py
-    ├── make_table.py
+    ├── .python-version
+    ├── manage.py
+    ├── railway.json
     ├── README.md
-    ├── requirements.txt
-    ├── schaduler.py
-    └── settings.py
+    └── requirements.txt
 <br /> <br />
