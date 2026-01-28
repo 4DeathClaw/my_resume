@@ -1,943 +1,330 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Anastasia Nesterenko - Python Backend Developer. Опыт работы с Django, FastAPI, микросервисной архитектурой и высоконагруженными системами." />
-        <meta name="author" content="Anastasia Nesterenko" />
-        <title>Anastasia Nesterenko - Python Backend Developer</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="./css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">Anastasia Nesterenko</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Projects</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">Skills</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img style="margin-bottom: 50px" class="masthead-avatar md-5 d-block mx-auto rounded-circle" src="./assets/img/avatar.jpg" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Anastasia Nesterenko</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Python Backend Developer | E-Commerce & High-Load Systems</p>
-            </div>
-        </header>
-                <!-- Contact Section-->
-        <section class="page-section" id="about">
-            <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">About</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-10 mx-auto">
-                        <p class="lead text-center mb-4">
-                            Python Backend Developer специализирующийся на высоконагруженных микросервисах и e-commerce решениях.
-                            Опыт работы с Django, FastAPI, построением микросервисной архитектуры, интеграцией через Kafka/RabbitMQ
-                            и разработкой масштабируемых систем сбора и обработки данных.
-                        </p>
-                        <p class="lead text-center">
-                            Занимаюсь проектированием backend-архитектуры, оптимизацией производительности API,
-                            автоматизацией CI/CD процессов и построением систем мониторинга. Интересуюсь направлением
-                            искусственного интеллекта и алгоритмической торговли.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+<html lang="ru">
+<head>
+    <title>4DeathClaw - Python Backend Developer</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="4DeathClaw - Python Backend Developer с опытом больше 6 лет">
+    <meta name="author" content="4DeathClaw">
+    <link rel="shortcut icon" href="favicon.ico">
 
-        <!-- Projects Section-->
-        <section class="page-section bg-primary text-white mb-0" id="projects">
-            <div class="container">
-                <!-- Projects Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Проекты</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-                <!-- Experience Timeline -->
-                <div class="row mb-5">
-                    <div class="col-lg-12">
-                        <h3 class="text-center mb-4">Золотое Яблоко</h3>
-                        <p class="lead text-center mb-4">Python Backend Developer | E-Commerce</p>
-                    </div>
-                </div>
+    <!-- FontAwesome JS -->
+    <script defer src="assets_new/fontawesome/js/all.js"></script>
 
-                <!-- Project Cards -->
-                <div class="row">
-                    <!-- Project 1 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="card h-100" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#projectModal1">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark"><i class="fas fa-database text-primary"></i> SaaS-платформа парсинга</h5>
-                                <p class="card-text text-dark">Разработка и поддержка SaaS-платформы для парсинга и мониторинга данных из 80+ источников. Микросервисная архитектура с использованием Django, FastAPI, Kafka.</p>
-                                <div class="mt-3">
-                                    <span class="badge bg-secondary me-1">Django</span>
-                                    <span class="badge bg-secondary me-1">FastAPI</span>
-                                    <span class="badge bg-secondary me-1">Kafka</span>
-                                    <span class="badge bg-secondary me-1">PostgreSQL</span>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets_new/plugins/bootstrap/css/bootstrap.min.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets_new/css/styles.css">
+
+</head>
+
+<body class="dark-mode">
+    <!-- ******HEADER****** -->
+    <header class="header">
+        <div class="container">
+	        <div class="row align-items-center">
+			    <div class="col">
+		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/img/avatar.jpg" alt="4DeathClaw profile" />
+		            <div class="profile-content">
+		                <h1 class="name">4DeathClaw</h1>
+		                <div class="desc-with-social">
+		                    <h2 class="desc">Python Backend Developer | Опыт больше 6 лет</h2>
+		                    <ul class="social list-inline">
+		                        <li class="list-inline-item"><a href="https://t.me/anastasia_belish" target="_blank"><i class="fa-brands fa-telegram"></i></a></li>
+		                        <li class="list-inline-item"><a href="mailto:anastasia.rem.work@yandex.ru"><i class="fas fa-envelope"></i></a></li>
+		                        <li class="list-inline-item"><a href="https://github.com/4DeathClaw" target="_blank"><i class="fa-brands fa-github-alt"></i></a></li>
+		                    </ul>
+		                </div>
+		            </div><!--//profile-->
+			    </div><!--//col-->
+	            <div class="col-12 col-md-auto">
+		            <div class="dark-mode-switch d-flex">
+						<div class="form-check form-switch mx-auto mx-md-0">
+							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" checked />
+							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+						</div>
+			        </div><!--//dark-mode-switch-->
+	                <a class="btn btn-cta-primary" href="tel:+79827148232"><i class="fas fa-phone"></i> Связаться</a>
+	            </div><!--//col-->
+	        </div><!--//row-->
+        </div><!--//container-->
+    </header><!--//header-->
+
+    <div class="container sections-wrapper py-5">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Обо мне</h2>
+                        <div class="content">
+                            <p><strong>Python Backend Developer</strong> с опытом работы <strong>больше 6 лет</strong>, специализирующийся на высоконагруженных микросервисах, e-commerce решениях и парсинге данных.</p>
+
+                            <p>Перед поступлением в университет начала интересоваться программированием — направлением разработки. Поскольку backend можно вполне изучить самостоятельно, я занималась изучением этого направления в областях AQA, Web и парсинга. Также меня интересует направление ИИ, так как будущее за ними. Увлекаюсь темой алгоритмической торговли — хочу в будущем написать нейросеть, анализирующую рынок.</p>
+
+                            <p>За время работы занималась проектированием backend-архитектуры с нуля, оптимизацией производительности API, автоматизацией CI/CD процессов и построением систем мониторинга. Обожаю улучшать рабочие процессы в команде и помогать младшим сотрудникам с решением сложных вопросов.</p>
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+               <section class="latest section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Ключевые проекты</h2>
+                        <div class="content">
+
+                            <div class="item featured text-center">
+                                <div class="featured-image">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/img/portfolio/saas-platform.jpg" alt="SaaS платформа парсинга" onerror="this.src='assets_new/images/projects/project-featured.jpg'" />
                                 </div>
+
+                                <h3 class="title mb-3">SaaS-платформа парсинга и мониторинга данных</h3>
+
+                                <div class="desc text-start">
+                                    <p>Разработка и поддержка SaaS-платформы для парсинга и мониторинга данных из <strong>80+ внешних источников</strong> (маркетплейсы, сайты поставщиков). Платформа используется несколькими внутренними командами (аналитика, BI, отдел парсинга) как единая точка управления и наблюдения за сбором данных.</p>
+
+                                    <p><strong>Моя роль:</strong> Backend-архитектура, разработка и поддержка микросервисов, работа с production, code review.</p>
+
+                                    <p><strong>Технологии:</strong> Django, FastAPI, PostgreSQL, ClickHouse, Kafka, RabbitMQ, Celery, CI/CD</p>
+
+                                    <p><strong>Результаты:</strong></p>
+                                    <ul>
+                                        <li>Ускорение API на 35%</li>
+                                        <li>Стабильность сбора данных ~95%</li>
+                                        <li>Платформа используется 3 командами</li>
+                                    </ul>
+                                </div><!--//desc-->
+                            </div><!--//item-->
+                            <hr class="divider" />
+
+                            <div class="item row">
+                                <a class="col-md-4 col-12">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets_new/images/projects/project-1.png" alt="Система мониторинга" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title">Система мониторинга и тестирования парсеров</h3>
+                                    <p class="mb-2">Разработка сервиса для автоматического тестирования парсеров с уведомлениями через Telegram и push. Система сразу подсвечивает проблемные места в коде.</p>
+                                    <p><strong>Результат:</strong> Сократила время восстановления (MTTR) с недели до 1-2 дней.</p>
+                                    <p class="mb-0"><strong>Стек:</strong> Python, Django, pytest, Telegram Bot API, CI/CD</p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
+
+                            <div class="item row">
+                                <a class="col-md-4 col-12">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets_new/images/projects/project-2.png" alt="Система сбора данных" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title">Система сбора данных (парсинг 80+ источников)</h3>
+                                    <p class="mb-2">Проектирование и реализация системы парсинга данных о ценах и товарных остатках. Использование асинхронных воркеров, системы ротации прокси, семафоров и rate limiting.</p>
+                                    <p class="mb-0"><strong>Стек:</strong> Python, Selenium, Playwright, BeautifulSoup4, Camoufox, Botasaurus, asyncio</p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+                <section class="projects section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Другие проекты</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Сервис контроля качества данных</h3>
+                                <p class="summary">Разработка системы автоматической валидации данных из сотен источников. Django + DRF + Celery для обработки больших объемов данных с 20+ столбцами характеристик товаров.</p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">Платформа аналитических дашбордов</h3>
+                                <p class="summary">Создание платформы для визуализации и анализа данных. Django + FastAPI + PostgreSQL для обработки и агрегации больших объемов данных с интеграцией BI-систем.</p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">Telegram-бот для студентов</h3>
+                                <p class="summary">Разработка бота на aiogram с Django webapp для напоминаний о дедлайнах и событиях. Интеграция с университетскими системами (Moodle API).</p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">Платформа для квизов и презентаций</h3>
+                                <p class="summary">Веб-приложение на Django для проведения интерактивных квизов. Преподаватели загружают презентации и создают квизы на основе содержимого для обучения.</p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">API для интеграции между отделами</h3>
+                                <p class="summary">Проектирование и разработка с нуля API на FastAPI для обмена данными между отделами организации. Руководство командой из 2 разработчиков. Система аутентификации и управления правами доступа.</p>
+                            </div><!--//item-->
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Опыт работы</h2>
+                        <div class="content">
+                            <p class="mb-4"><strong>Общий опыт:</strong> больше 6 лет в коммерческой разработке</p>
+
+                            <div class="item">
+                                <h3 class="title">Python Backend Developer - <span class="place">E-Commerce</span> <span class="year">(~2.5 года)</span></h3>
+                                <p>Работа с высоконагруженными микросервисами и SaaS-платформой для парсинга данных из 80+ источников.</p>
+                                <p><strong>Ключевые обязанности:</strong></p>
+                                <ul>
+                                    <li>Разработка и поддержка высоконагруженных микросервисов (12+ сервисов)</li>
+                                    <li>Проектирование backend-архитектуры и микросервисной экосистемы</li>
+                                    <li>Работа с асинхронным взаимодействием через Kafka и RabbitMQ</li>
+                                    <li>Внедрение CI/CD для автоматизации деплоев</li>
+                                    <li>Code review и менторинг младших разработчиков</li>
+                                </ul>
+                                <p><strong>Достижения:</strong> Ускорение API на 35%, снижение MTTR в 2 раза, разработка асинхронного фреймворка</p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">Python Backend Developer - <span class="place">Retail</span> <span class="year">(~1.5 года)</span></h3>
+                                <p>Работа в крупной ритейл-компании с фокусом на сбор и обработку данных из сотен источников.</p>
+                                <p><strong>Обязанности:</strong> Разработка сервисов парсинга и ETL, создание API, проектирование БД, реализация очередей задач, оптимизация асинхронных сервисов.</p>
+                                <p><strong>Достижения:</strong> Реализовала систему сбора данных из 70+ источников, оптимизировала время обработки на 40%</p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">Python Backend Developer - <span class="place">Education</span> <span class="year">(~2 года)</span></h3>
+                                <p>Начало карьеры в университетском центре аналитики. Получила первую практику создания архитектуры систем с нуля.</p>
+                                <p><strong>Обязанности:</strong> Разработка на Django и FastAPI, интеграция с внутренними системами, проектирование БД, автоматизация ETL-процессов.</p>
+                                <p><strong>Достижения:</strong> Создала ETL-сервис для 5+ систем, повысила покрытие тестами с 40% до 80%, спроектировала API для обмена данными</p>
+                            </div><!--//item-->
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading sr-only">Контактная информация</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Местоположение:</span>Москва, Россия</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:anastasia.rem.work@yandex.ru">anastasia.rem.work@yandex.ru</a></li>
+                                <li><i class="fa-brands fa-telegram"></i><span class="sr-only">Telegram:</span><a href="https://t.me/anastasia_belish" target="_blank">@anastasia_belish</a></li>
+                                <li><i class="fas fa-phone"></i><span class="sr-only">Телефон:</span><a href="tel:+79827148232">+7 (982) 714-82-32</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//aside-->
+
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Технологии</h2>
+                        <div class="content">
+                            <p class="intro">Основной стек технологий, с которыми работаю на постоянной основе:</p>
+
+                            <div class="skillset">
+
+                                <div class="item">
+                                    <h3 class="level-title">Python, Django, FastAPI<span class="level-label"><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 95%" aria-valuenow="95"  aria-valuemin="0" aria-valuemax="100"></div>
+									</div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">PostgreSQL, MySQL, ClickHouse<span class="level-label"><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 92%" aria-valuenow="92"  aria-valuemin="0" aria-valuemax="100"></div>
+									</div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Kafka, RabbitMQ, Celery<span class="level-label"><i class="fas fa-info-circle"></i>Advanced</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 88%" aria-valuenow="88"  aria-valuemin="0" aria-valuemax="100"></div>
+									</div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Docker, CI/CD, Git<span class="level-label"><i class="fas fa-info-circle"></i>Advanced</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 90%" aria-valuenow="90"  aria-valuemin="0" aria-valuemax="100"></div>
+									</div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Selenium, Playwright, Парсинг<span class="level-label"><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 94%" aria-valuenow="94"  aria-valuemin="0" aria-valuemax="100"></div>
+									</div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">REST API, WebSocket, Asyncio<span class="level-label"><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 93%" aria-valuenow="93"  aria-valuemin="0" aria-valuemax="100"></div>
+									</div><!--//level-bar-->
+                                </div><!--//item-->
+
                             </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 2 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="card h-100" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#projectModal2">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark"><i class="fas fa-chart-line text-primary"></i> Система мониторинга и тестирования</h5>
-                                <p class="card-text text-dark">Разработка сервиса для автоматического тестирования парсеров с уведомлениями через Telegram и push. Сократила время восстановления с недели до 1-2 дней.</p>
-                                <div class="mt-3">
-                                    <span class="badge bg-secondary me-1">Python</span>
-                                    <span class="badge bg-secondary me-1">CI/CD</span>
-                                    <span class="badge bg-secondary me-1">Testing</span>
-                                    <span class="badge bg-secondary me-1">Monitoring</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 3 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="card h-100" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#projectModal3">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark"><i class="fas fa-spider text-primary"></i> Система сбора данных</h5>
-                                <p class="card-text text-dark">Проектирование и реализация системы парсинга из 80+ источников. Использование Selenium, Playwright, BeautifulSoup4, асинхронных воркеров.</p>
-                                <div class="mt-3">
-                                    <span class="badge bg-secondary me-1">Selenium</span>
-                                    <span class="badge bg-secondary me-1">Playwright</span>
-                                    <span class="badge bg-secondary me-1">Async</span>
-                                    <span class="badge bg-secondary">BS4</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mb-5 mt-5">
-                    <div class="col-lg-12">
-                        <h3 class="text-center mb-4">X5 Group</h3>
-                        <p class="lead text-center mb-4">Python Developer | Retail</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <!-- Project 4 -->
-                    <div class="col-md-6 mb-4">
-                        <div class="card h-100" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#projectModal4">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark"><i class="fas fa-check-circle text-primary"></i> Сервис контроля качества данных</h5>
-                                <p class="card-text text-dark">Разработка системы автоматической валидации данных из сотен источников. Django + DRF + Celery для обработки больших объемов данных.</p>
-                                <div class="mt-3">
-                                    <span class="badge bg-secondary me-1">Django</span>
-                                    <span class="badge bg-secondary me-1">DRF</span>
-                                    <span class="badge bg-secondary me-1">Celery</span>
-                                    <span class="badge bg-secondary">ETL</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 5 -->
-                    <div class="col-md-6 mb-4">
-                        <div class="card h-100" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#projectModal5">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark"><i class="fas fa-chart-bar text-primary"></i> Платформа аналитических дашбордов</h5>
-                                <p class="card-text text-dark">Создание платформы для визуализации и анализа данных. Django + FastAPI + PostgreSQL для обработки и агрегации больших объемов данных.</p>
-                                <div class="mt-3">
-                                    <span class="badge bg-secondary me-1">Django</span>
-                                    <span class="badge bg-secondary me-1">FastAPI</span>
-                                    <span class="badge bg-secondary me-1">PostgreSQL</span>
-                                    <span class="badge bg-secondary">BI</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mb-5 mt-5">
-                    <div class="col-lg-12">
-                        <h3 class="text-center mb-4">УрФУ, Центр аналитики и трансформации</h3>
-                        <p class="lead text-center mb-4">Python Developer</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <!-- Project 6 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="card h-100" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#projectModal6">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark"><i class="fas fa-robot text-primary"></i> Telegram-бот для студентов</h5>
-                                <p class="card-text text-dark">Разработка бота на aiogram с Django webapp для напоминаний о дедлайнах и событиях. Интеграция с Moodle API.</p>
-                                <div class="mt-3">
-                                    <span class="badge bg-secondary me-1">Django</span>
-                                    <span class="badge bg-secondary me-1">aiogram</span>
-                                    <span class="badge bg-secondary me-1">API</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 7 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="card h-100" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#projectModal7">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark"><i class="fas fa-question-circle text-primary"></i> Платформа для квизов</h5>
-                                <p class="card-text text-dark">Веб-приложение на Django для проведения интерактивных квизов и презентаций. Инструмент для обучения студентов.</p>
-                                <div class="mt-3">
-                                    <span class="badge bg-secondary me-1">Django</span>
-                                    <span class="badge bg-secondary me-1">Web</span>
-                                    <span class="badge bg-secondary">Interactive</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 8 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="card h-100" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#projectModal8">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark"><i class="fas fa-exchange-alt text-primary"></i> API интеграции отделов</h5>
-                                <p class="card-text text-dark">Проектирование и разработка с нуля API на FastAPI для обмена данными между отделами университета. Руководство командой из 2 разработчиков.</p>
-                                <div class="mt-3">
-                                    <span class="badge bg-secondary me-1">FastAPI</span>
-                                    <span class="badge bg-secondary me-1">PostgreSQL</span>
-                                    <span class="badge bg-secondary">Architecture</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section-->
-        <section class="page-section" id="skills">
-            <div class="container">
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Технологии</h2>
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-
-                <div class="row mt-5">
-                    <div class="col-md-6 mb-4">
-                        <h4><i class="fas fa-code text-primary"></i> Backend</h4>
-                        <ul class="lead">
-                            <li>Python (Django, FastAPI, DRF)</li>
-                            <li>REST API, WebSocket API</li>
-                            <li>Микросервисная архитектура</li>
-                            <li>PostgreSQL, MySQL, ClickHouse</li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-6 mb-4">
-                        <h4><i class="fas fa-project-diagram text-primary"></i> Инфраструктура</h4>
-                        <ul class="lead">
-                            <li>Kafka, RabbitMQ</li>
-                            <li>Celery</li>
-                            <li>CI/CD, Git Flow</li>
-                            <li>Мониторинг и логирование</li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-6 mb-4">
-                        <h4><i class="fas fa-spider text-primary"></i> Парсинг</h4>
-                        <ul class="lead">
-                            <li>Selenium, Playwright</li>
-                            <li>BeautifulSoup4</li>
-                            <li>Camoufox, Botasaurus</li>
-                            <li>Асинхронные воркеры</li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-6 mb-4">
-                        <h4><i class="fas fa-tools text-primary"></i> Другое</h4>
-                        <ul class="lead">
-                            <li>ETL процессы</li>
-                            <li>Проектирование БД</li>
-                            <li>Code Review</li>
-                            <li>Unit & Integration тесты</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section-->
-<!--        <section class="page-section" id="contact">-->
-<!--            <div class="container">-->
-<!--                &lt;!&ndash; Contact Section Heading&ndash;&gt;-->
-<!--                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>-->
-<!--                &lt;!&ndash; Icon Divider&ndash;&gt;-->
-<!--                <div class="divider-custom">-->
-<!--                    <div class="divider-custom-line"></div>-->
-<!--                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>-->
-<!--                    <div class="divider-custom-line"></div>-->
-<!--                </div>-->
-<!--                &lt;!&ndash; Contact Section Form&ndash;&gt;-->
-<!--                <div class="row justify-content-center">-->
-<!--                    <div class="col-lg-8 col-xl-7">-->
-<!--                        &lt;!&ndash; * * * * * * * * * * * * * * *&ndash;&gt;-->
-<!--                        &lt;!&ndash; * * SB Forms Contact Form * *&ndash;&gt;-->
-<!--                        &lt;!&ndash; * * * * * * * * * * * * * * *&ndash;&gt;-->
-<!--                        &lt;!&ndash; This form is pre-integrated with SB Forms.&ndash;&gt;-->
-<!--                        &lt;!&ndash; To make this form functional, sign up at&ndash;&gt;-->
-<!--                        &lt;!&ndash; https://startbootstrap.com/solution/contact-forms&ndash;&gt;-->
-<!--                        &lt;!&ndash; to get an API token!&ndash;&gt;-->
-<!--                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">-->
-<!--                            &lt;!&ndash; Name input&ndash;&gt;-->
-<!--                            <div class="form-floating mb-3">-->
-<!--                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />-->
-<!--                                <label for="name">Full name</label>-->
-<!--                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>-->
-<!--                            </div>-->
-<!--                            &lt;!&ndash; Email address input&ndash;&gt;-->
-<!--                            <div class="form-floating mb-3">-->
-<!--                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />-->
-<!--                                <label for="email">Email address</label>-->
-<!--                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>-->
-<!--                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>-->
-<!--                            </div>-->
-<!--                            &lt;!&ndash; Phone number input&ndash;&gt;-->
-<!--                            <div class="form-floating mb-3">-->
-<!--                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />-->
-<!--                                <label for="phone">Phone number</label>-->
-<!--                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>-->
-<!--                            </div>-->
-<!--                            &lt;!&ndash; Message input&ndash;&gt;-->
-<!--                            <div class="form-floating mb-3">-->
-<!--                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>-->
-<!--                                <label for="message">Message</label>-->
-<!--                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>-->
-<!--                            </div>-->
-<!--                            &lt;!&ndash; Submit success message&ndash;&gt;-->
-<!--                            &lt;!&ndash;&ndash;&gt;-->
-<!--                            &lt;!&ndash; This is what your users will see when the form&ndash;&gt;-->
-<!--                            &lt;!&ndash; has successfully submitted&ndash;&gt;-->
-<!--                            <div class="d-none" id="submitSuccessMessage">-->
-<!--                                <div class="text-center mb-3">-->
-<!--                                    <div class="fw-bolder">Form submission successful!</div>-->
-<!--                                    To activate this form, sign up at-->
-<!--                                    <br />-->
-<!--                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            &lt;!&ndash; Submit error message&ndash;&gt;-->
-<!--                            &lt;!&ndash;&ndash;&gt;-->
-<!--                            &lt;!&ndash; This is what your users will see when there is&ndash;&gt;-->
-<!--                            &lt;!&ndash; an error submitting the form&ndash;&gt;-->
-<!--                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>-->
-<!--                            &lt;!&ndash; Submit Button&ndash;&gt;-->
-<!--                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>-->
-<!--                        </form>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </section>-->
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            Russian Federation
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-github"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-stack-overflow"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-pinterest"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">Обо мне</h4>
-                        <p class="lead mb-0">
-                            Python Backend Developer с опытом в e-commerce, ритейле и образовании
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Anastasia Nesterenko 2025</small></div>
-        </div>
-        <!-- Project Modals-->
-        <!-- Project Modal 1: SaaS Platform -->
-        <div class="portfolio-modal modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10">
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">SaaS-платформа парсинга и мониторинга</h2>
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-
-                                    <div class="text-start">
-                                        <h4 class="mb-3">Описание проекта</h4>
-                                        <p class="mb-4">Разработка и поддержка SaaS-платформы для парсинга и мониторинга данных из 80+ внешних источников (маркетплейсы, сайты поставщиков). Платформа используется несколькими внутренними командами (аналитика, BI, отдел парсинга) как единая точка управления и наблюдения за сбором данных.</p>
-
-                                        <h5 class="mb-3">Моя роль</h5>
-                                        <ul class="mb-4">
-                                            <li>Backend-архитектура сервиса</li>
-                                            <li>Разработка и поддержка ключевых микросервисов</li>
-                                            <li>Стабильная работа системы в production</li>
-                                            <li>Работа с production и preprod: деплои, мониторинг, hotfix/rollback</li>
-                                            <li>Code review и помощь младшим разработчикам</li>
-                                        </ul>
-
-                                        <h5 class="mb-3">Микросервисная архитектура</h5>
-                                        <ul class="mb-4">
-                                            <li><strong>Core SaaS Backend (Django + DRF)</strong> - управление пользователями, источниками, парсерами, правами доступа</li>
-                                            <li><strong>Parser Orchestrator (FastAPI)</strong> - планирование и запуск парсеров, работа с очередями</li>
-                                            <li><strong>Parser Workers</strong> - асинхронные воркеры для сбора данных</li>
-                                            <li><strong>Monitoring Service</strong> - отслеживание статусов, ошибок, рассылка уведомлений</li>
-                                            <li><strong>Data Processing Service</strong> - валидация, нормализация и агрегация данных</li>
-                                            <li><strong>Integration Layer</strong> - обмен событиями с другими системами через Kafka</li>
-                                        </ul>
-
-                                        <h5 class="mb-3">Технологии</h5>
-                                        <p class="mb-4">
-                                            <span class="badge bg-primary me-2">Django</span>
-                                            <span class="badge bg-primary me-2">FastAPI</span>
-                                            <span class="badge bg-primary me-2">DRF</span>
-                                            <span class="badge bg-primary me-2">PostgreSQL</span>
-                                            <span class="badge bg-primary me-2">ClickHouse</span>
-                                            <span class="badge bg-primary me-2">Kafka</span>
-                                            <span class="badge bg-primary me-2">RabbitMQ</span>
-                                            <span class="badge bg-primary me-2">Celery</span>
-                                            <span class="badge bg-primary me-2">CI/CD</span>
-                                        </p>
-
-                                        <h5 class="mb-3">Результаты</h5>
-                                        <ul>
-                                            <li>Обработка данных из 80+ источников</li>
-                                            <li>Стабильность сбора ~95%</li>
-                                            <li>Платформа используется 3 командами</li>
-                                        </ul>
-                                    </div>
-
-                                    <button class="btn btn-primary mt-4" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Закрыть
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Project Modal 2: Monitoring System -->
-        <div class="portfolio-modal modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModal2" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10">
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Система мониторинга и тестирования</h2>
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-
-                                    <div class="text-start">
-                                        <h4 class="mb-3">Описание проекта</h4>
-                                        <p class="mb-4">Разработка сервиса совместно с другим разработчиком для автоматического тестирования парсеров и мониторинга их работы. Система отправляет уведомления через Telegram и push-уведомления, а также дублирует их в Django интерфейс для просмотра падений и конкретных ошибок.</p>
-
-                                        <h5 class="mb-3">Проблема</h5>
-                                        <p class="mb-4">Раньше при падении парсера приходили только уведомления с указанием сервера, но без детальной информации об ошибке. Время на починку парсера могло занимать до недели.</p>
-
-                                        <h5 class="mb-3">Решение</h5>
-                                        <ul class="mb-4">
-                                            <li>Разработала новый процесс: написание unit и интеграционных тестов для каждого парсера</li>
-                                            <li>Интеграция тестов с платформой мониторинга</li>
-                                            <li>Автоматическое выявление проблемных мест в коде</li>
-                                            <li>Детальные логи и stack traces в уведомлениях</li>
-                                            <li>Dashboard для визуализации ошибок</li>
-                                        </ul>
-
-                                        <h5 class="mb-3">Технологии</h5>
-                                        <p class="mb-4">
-                                            <span class="badge bg-primary me-2">Python</span>
-                                            <span class="badge bg-primary me-2">Django</span>
-                                            <span class="badge bg-primary me-2">pytest</span>
-                                            <span class="badge bg-primary me-2">Telegram Bot API</span>
-                                            <span class="badge bg-primary me-2">CI/CD</span>
-                                            <span class="badge bg-primary me-2">Monitoring</span>
-                                        </p>
-
-                                        <h5 class="mb-3">Результаты</h5>
-                                        <ul>
-                                            <li><strong>Сокращение MTTR:</strong> время починки парсера снизилось с недели до 1-2 дней</li>
-                                            <li>Автоматическое выявление проблем на этапе тестирования</li>
-                                            <li>Детальная информация об ошибках сразу при падении</li>
-                                        </ul>
-                                    </div>
-
-                                    <button class="btn btn-primary mt-4" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Закрыть
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Project Modal 3: Data Collection System -->
-        <div class="portfolio-modal modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModal3" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10">
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Система сбора данных</h2>
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-
-                                    <div class="text-start">
-                                        <h4 class="mb-3">Описание проекта</h4>
-                                        <p class="mb-4">Проектирование и реализация системы парсинга данных о ценах и товарных остатках из 80+ источников: маркетплейсы, сайты поставщиков (Zумос, Метакомерс) и другие внешние источники.</p>
-
-                                        <h5 class="mb-3">Технические детали</h5>
-                                        <ul class="mb-4">
-                                            <li>Использование различных библиотек парсинга: Selenium, Playwright, BeautifulSoup4, Camoufox, Botasaurus</li>
-                                            <li>Асинхронные воркеры для параллельного сбора данных</li>
-                                            <li>Система ротации прокси для обхода ограничений</li>
-                                            <li>Семафоры и rate limiting для контроля нагрузки</li>
-                                            <li>Автоматическая обработка капчи и других защитных механизмов</li>
-                                        </ul>
-
-                                        <h5 class="mb-3">Оптимизация</h5>
-                                        <ul class="mb-4">
-                                            <li>Асинхронность: использование async/await для параллельного выполнения</li>
-                                            <li>Управление ресурсами через семафоры</li>
-                                            <li>Интеллектуальная система повторных попыток</li>
-                                            <li>Кэширование для уменьшения нагрузки</li>
-                                        </ul>
-
-                                        <h5 class="mb-3">Технологии</h5>
-                                        <p class="mb-4">
-                                            <span class="badge bg-primary me-2">Python</span>
-                                            <span class="badge bg-primary me-2">Selenium</span>
-                                            <span class="badge bg-primary me-2">Playwright</span>
-                                            <span class="badge bg-primary me-2">BeautifulSoup4</span>
-                                            <span class="badge bg-primary me-2">Camoufox</span>
-                                            <span class="badge bg-primary me-2">Botasaurus</span>
-                                            <span class="badge bg-primary me-2">asyncio</span>
-                                            <span class="badge bg-primary me-2">Proxy</span>
-                                        </p>
-
-                                        <h5 class="mb-3">Результаты</h5>
-                                        <ul>
-                                            <li>Успешный парсинг 80+ источников</li>
-                                            <li>Высокая стабильность сбора данных (~95%)</li>
-                                            <li>Оптимизированная производительность через асинхронность</li>
-                                        </ul>
-                                    </div>
-
-                                    <button class="btn btn-primary mt-4" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Закрыть
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Project Modal 4: Data Quality Service -->
-        <div class="portfolio-modal modal fade" id="projectModal4" tabindex="-1" aria-labelledby="projectModal4" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10">
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Сервис контроля качества данных</h2>
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-
-                                    <div class="text-start">
-                                        <h4 class="mb-3">Описание проекта</h4>
-                                        <p class="mb-4">Разработка системы автоматической валидации данных из сотен источников в крупной ритейл-компании. Каждая выгрузка содержала 20+ столбцов с различными характеристиками товаров, проверку которых требовалось автоматизировать.</p>
-
-                                        <h5 class="mb-3">Функциональность</h5>
-                                        <ul class="mb-4">
-                                            <li>Автоматическая валидация структуры и формата данных</li>
-                                            <li>Проверка бизнес-правил для каждого типа товара</li>
-                                            <li>Выявление дубликатов и несоответствий</li>
-                                            <li>Мониторинг качества данных в реальном времени</li>
-                                            <li>Детальные отчеты о проблемах с данными</li>
-                                            <li>Очереди задач для асинхронной обработки больших объемов</li>
-                                        </ul>
-
-                                        <h5 class="mb-3">Технологии</h5>
-                                        <p class="mb-4">
-                                            <span class="badge bg-primary me-2">Django</span>
-                                            <span class="badge bg-primary me-2">Django REST Framework</span>
-                                            <span class="badge bg-primary me-2">Celery</span>
-                                            <span class="badge bg-primary me-2">PostgreSQL</span>
-                                            <span class="badge bg-primary me-2">ETL</span>
-                                            <span class="badge bg-primary me-2">Data Validation</span>
-                                        </p>
-
-                                        <h5 class="mb-3">Результаты</h5>
-                                        <ul>
-                                            <li>Автоматизация проверки данных из сотен источников</li>
-                                            <li>Снижение количества ошибок в данных</li>
-                                            <li>Ускорение процесса валидации</li>
-                                        </ul>
-                                    </div>
-
-                                    <button class="btn btn-primary mt-4" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Закрыть
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Project Modal 5: Analytics Dashboard Platform -->
-        <div class="portfolio-modal modal fade" id="projectModal5" tabindex="-1" aria-labelledby="projectModal5" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10">
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Платформа аналитических дашбордов</h2>
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-
-                                    <div class="text-start">
-                                        <h4 class="mb-3">Описание проекта</h4>
-                                        <p class="mb-4">Создание платформы для визуализации и анализа больших объемов данных в ритейл-компании. Система обрабатывает и агрегирует данные для предоставления аналитических инсайтов бизнес-командам.</p>
-
-                                        <h5 class="mb-3">Функциональность</h5>
-                                        <ul class="mb-4">
-                                            <li>REST API для получения аналитических данных</li>
-                                            <li>Агрегация и обработка больших объемов данных</li>
-                                            <li>Оптимизированные запросы к БД</li>
-                                            <li>Кэширование часто запрашиваемых данных</li>
-                                            <li>Экспорт данных в различные форматы</li>
-                                            <li>Интеграция с BI-системами</li>
-                                        </ul>
-
-                                        <h5 class="mb-3">Архитектура</h5>
-                                        <ul class="mb-4">
-                                            <li>Backend на Django для административной части</li>
-                                            <li>FastAPI для высокопроизводительных API-эндпоинтов</li>
-                                            <li>PostgreSQL для хранения данных</li>
-                                            <li>Оптимизация запросов через индексы и материализованные представления</li>
-                                        </ul>
-
-                                        <h5 class="mb-3">Технологии</h5>
-                                        <p class="mb-4">
-                                            <span class="badge bg-primary me-2">Django</span>
-                                            <span class="badge bg-primary me-2">FastAPI</span>
-                                            <span class="badge bg-primary me-2">PostgreSQL</span>
-                                            <span class="badge bg-primary me-2">BI</span>
-                                            <span class="badge bg-primary me-2">Data Aggregation</span>
-                                            <span class="badge bg-primary me-2">API</span>
-                                        </p>
-
-                                        <h5 class="mb-3">Результаты</h5>
-                                        <ul>
-                                            <li>Централизованная платформа для аналитики</li>
-                                            <li>Быстрая обработка больших объемов данных</li>
-                                            <li>Удобный доступ к аналитике для бизнес-команд</li>
-                                        </ul>
-                                    </div>
-
-                                    <button class="btn btn-primary mt-4" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Закрыть
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Project Modal 6: Telegram Bot -->
-        <div class="portfolio-modal modal fade" id="projectModal6" tabindex="-1" aria-labelledby="projectModal6" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10">
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Telegram-бот для студентов</h2>
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-
-                                    <div class="text-start">
-                                        <h4 class="mb-3">Описание проекта</h4>
-                                        <p class="mb-4">Разработка Telegram-бота на aiogram с Django webapp для помощи студентам УрФУ. Система позволяет управлять напоминаниями, отслеживать дедлайны и получать уведомления о событиях.</p>
-
-                                        <h5 class="mb-3">Архитектура</h5>
-                                        <ul class="mb-4">
-                                            <li>Telegram-бот на aiogram для взаимодействия с пользователями</li>
-                                            <li>Django webapp для управления напоминаниями через веб-интерфейс</li>
-                                            <li>Интеграция с Moodle API для получения информации об учебных материалах</li>
-                                            <li>Система уведомлений о предстоящих дедлайнах</li>
-                                        </ul>
-
-                                        <h5 class="mb-3">Функциональность</h5>
-                                        <ul class="mb-4">
-                                            <li>Напоминания о дедлайнах и событиях</li>
-                                            <li>Уведомления о новых заданиях из Moodle</li>
-                                            <li>Просмотр расписания и событий</li>
-                                            <li>Веб-интерфейс для детального управления</li>
-                                            <li>Интеграция с университетскими системами</li>
-                                        </ul>
-
-                                        <h5 class="mb-3">Технологии</h5>
-                                        <p class="mb-4">
-                                            <span class="badge bg-primary me-2">Python</span>
-                                            <span class="badge bg-primary me-2">Django</span>
-                                            <span class="badge bg-primary me-2">aiogram</span>
-                                            <span class="badge bg-primary me-2">Telegram Bot API</span>
-                                            <span class="badge bg-primary me-2">Moodle API</span>
-                                            <span class="badge bg-primary me-2">PostgreSQL</span>
-                                        </p>
-
-                                        <h5 class="mb-3">Результаты</h5>
-                                        <ul>
-                                            <li>Помощь студентам в управлении дедлайнами</li>
-                                            <li>Интеграция университетских систем</li>
-                                            <li>Удобный интерфейс в Telegram и web</li>
-                                        </ul>
-                                    </div>
-
-                                    <button class="btn btn-primary mt-4" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Закрыть
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Project Modal 7: Quiz Platform -->
-        <div class="portfolio-modal modal fade" id="projectModal7" tabindex="-1" aria-labelledby="projectModal7" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10">
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Платформа для квизов</h2>
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-
-                                    <div class="text-start">
-                                        <h4 class="mb-3">Описание проекта</h4>
-                                        <p class="mb-4">Веб-приложение на Django для проведения интерактивных квизов и презентаций. Преподаватели могут загружать презентации и создавать квизы на основе их содержимого для интерактивного обучения студентов.</p>
-
-                                        <h5 class="mb-3">Функциональность</h5>
-                                        <ul class="mb-4">
-                                            <li>Загрузка и обработка презентаций</li>
-                                            <li>Создание квизов на основе контента презентаций</li>
-                                            <li>Интерактивное прохождение квизов студентами</li>
-                                            <li>Система оценивания и статистика</li>
-                                            <li>Личные кабинеты для студентов и преподавателей</li>
-                                            <li>Отчеты об успеваемости</li>
-                                        </ul>
-
-                                        <h5 class="mb-3">Технологии</h5>
-                                        <p class="mb-4">
-                                            <span class="badge bg-primary me-2">Django</span>
-                                            <span class="badge bg-primary me-2">JavaScript</span>
-                                            <span class="badge bg-primary me-2">PostgreSQL</span>
-                                            <span class="badge bg-primary me-2">HTML/CSS</span>
-                                            <span class="badge bg-primary me-2">Interactive UI</span>
-                                        </p>
-
-                                        <h5 class="mb-3">Результаты</h5>
-                                        <ul>
-                                            <li>Интерактивный инструмент для обучения</li>
-                                            <li>Повышение вовлеченности студентов</li>
-                                            <li>Автоматизация проверки знаний</li>
-                                        </ul>
-                                    </div>
-
-                                    <button class="btn btn-primary mt-4" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Закрыть
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Project Modal 8: Department Integration API -->
-        <div class="portfolio-modal modal fade" id="projectModal8" tabindex="-1" aria-labelledby="projectModal8" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10">
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">API интеграции отделов</h2>
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-
-                                    <div class="text-start">
-                                        <h4 class="mb-3">Описание проекта</h4>
-                                        <p class="mb-4">Проектирование и разработка с нуля API на FastAPI для обмена данными между отделами университета. До этого проекта отделам приходилось физически ходить друг к другу для запроса документов, что было крайне неэффективно.</p>
-
-                                        <h5 class="mb-3">Проблема</h5>
-                                        <p class="mb-4">Отделы не имели налаженного цифрового взаимодействия. Для получения данных о студентах или документов из другого отдела сотрудникам приходилось лично идти в этот отдел и подтверждать свою личность и права доступа.</p>
-
-                                        <h5 class="mb-3">Решение</h5>
-                                        <ul class="mb-4">
-                                            <li>Спроектировала единое API для взаимодействия отделов</li>
-                                            <li>Система аутентификации и авторизации</li>
-                                            <li>Управление правами доступа к различным типам данных</li>
-                                            <li>Логирование всех запросов для безопасности</li>
-                                            <li>Руководство командой из 2 разработчиков</li>
-                                            <li>Документация API</li>
-                                        </ul>
-
-                                        <h5 class="mb-3">Технологии</h5>
-                                        <p class="mb-4">
-                                            <span class="badge bg-primary me-2">FastAPI</span>
-                                            <span class="badge bg-primary me-2">PostgreSQL</span>
-                                            <span class="badge bg-primary me-2">REST API</span>
-                                            <span class="badge bg-primary me-2">OAuth</span>
-                                            <span class="badge bg-primary me-2">Documentation</span>
-                                            <span class="badge bg-primary me-2">Architecture</span>
-                                        </p>
-
-                                        <h5 class="mb-3">Моя роль</h5>
-                                        <ul class="mb-4">
-                                            <li>Проектирование архитектуры системы</li>
-                                            <li>Руководство командой разработки</li>
-                                            <li>Делегирование задач разработчикам</li>
-                                            <li>Разработка ключевых компонентов</li>
-                                            <li>Code review</li>
-                                        </ul>
-
-                                        <h5 class="mb-3">Результаты</h5>
-                                        <ul>
-                                            <li>Цифровизация взаимодействия между отделами</li>
-                                            <li>Автоматизация запросов данных</li>
-                                            <li>Контроль доступа и безопасность</li>
-                                            <li>Экономия времени сотрудников</li>
-                                        </ul>
-                                    </div>
-
-                                    <button class="btn btn-primary mt-4" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Закрыть
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="./js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Образование</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Прикладная информатика</h3>
+                                <h4 class="university">Алгоритмы искусственного интеллекта <span class="year">(2024)</span></h4>
+                                <p class="text-muted">Уральский федеральный университет</p>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="languages aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Языки</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>Русский:</strong></span>
+                                    <span class="level">Родной <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Английский:</strong></span>
+                                    <span class="level">B2 - Средне-продвинутый <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+            </div><!--//secondary-->
+        </div><!--//row-->
+    </div><!--//masonry-->
+
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="container text-center">
+                <small class="copyright">Designed by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> | Adapted by 4DeathClaw</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets_new/plugins/popper.min.js"></script>
+    <script type="text/javascript" src="assets_new/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets_new/plugins/dark-mode-switch/dark-mode-switch.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets_new/js/main.js"></script>
+
+    <!-- Initialize dark mode -->
+    <script>
+        // Set dark mode by default
+        document.body.classList.add('dark-mode');
+        document.getElementById('darkSwitch').checked = true;
+    </script>
+</body>
 </html>
