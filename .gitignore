@@ -143,3 +143,5 @@ dmypy.json
 media/*
 static/logs/*
 !/project_site/
+
+draft.md
