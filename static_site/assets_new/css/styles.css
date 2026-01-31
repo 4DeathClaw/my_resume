@@ -670,7 +670,7 @@ a.dotted-link:hover {
 }
 
 .dark-mode-switch {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .dark-mode-switch .form-switch {
@@ -697,6 +697,34 @@ a.dotted-link:hover {
   border-color: #DAE3E7;
 }
 
+.lang-switch {
+  margin-bottom: 1rem;
+}
+
+.lang-switch .form-switch {
+  display: flex;
+}
+
+.lang-switch label {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.lang-switch .form-switch .form-check-input {
+  border-radius: 1em;
+  border-color: #DAE3E7;
+}
+
+.lang-switch .form-check-input:checked {
+  background-color: #3AAA64;
+  border-color: #3AAA64;
+}
+
+.lang-switch .form-check-input:focus {
+  box-shadow: none;
+  border-color: #DAE3E7;
+}
+
 body[data-theme="dark"] {
   background: #17191c;
   /* Github Activity Dark Mode */
@@ -713,6 +741,10 @@ body[data-theme="dark"] a.btn:hover {
 
 body[data-theme="dark"] .dark-mode-switch .form-check-input:focus {
   border-color: #54ba4e;
+}
+
+body[data-theme="dark"] .lang-switch .form-check-input:focus {
+  border-color: #3AAA64;
 }
 
 body[data-theme="dark"] .header {

@@ -34,7 +34,7 @@
 		            <div class="profile-content">
 		                <h1 class="name">4DeathClaw</h1>
 		                <div class="desc-with-social">
-		                    <h2 class="desc">Python Backend Developer | Опыт больше 6 лет</h2>
+		                    <h2 class="desc" data-i18n="position">Python Backend Developer | Опыт больше 6 лет</h2>
 		                    <ul class="social list-inline">
 		                        <li class="list-inline-item"><a href="https://t.me/anastasia_belish" target="_blank"><i class="fa-brands fa-telegram"></i></a></li>
 		                        <li class="list-inline-item"><a href="mailto:anastasia.rem.work@yandex.ru"><i class="fas fa-envelope"></i></a></li>
@@ -44,13 +44,21 @@
 		            </div><!--//profile-->
 			    </div><!--//col-->
 	            <div class="col-12 col-md-auto">
-		            <div class="dark-mode-switch d-flex">
-						<div class="form-check form-switch mx-auto mx-md-0">
-							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" checked />
-							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
-						</div>
-			        </div><!--//dark-mode-switch-->
-	                <a class="btn btn-cta-primary" href="tel:+79827148232"><i class="fas fa-phone"></i> Связаться</a>
+		            <div class="d-flex flex-column gap-2">
+		            	<div class="dark-mode-switch d-flex">
+							<div class="form-check form-switch mx-auto mx-md-0">
+								<input type="checkbox" class="form-check-input me-2" id="darkSwitch" checked />
+								<label class="custom-control-label" for="darkSwitch"><span data-i18n="darkMode">Dark Mode</span></label>
+							</div>
+				        </div><!--//dark-mode-switch-->
+				        <div class="lang-switch d-flex">
+							<div class="form-check form-switch mx-auto mx-md-0">
+								<input type="checkbox" class="form-check-input me-2" id="langSwitch" />
+								<label class="custom-control-label" for="langSwitch"><span data-i18n="language">English</span></label>
+							</div>
+				        </div><!--//lang-switch-->
+			        </div>
+	                <a class="btn btn-cta-primary" href="tel:+79827148232"><i class="fas fa-phone"></i> <span data-i18n="contact">Связаться</span></a>
 	            </div><!--//col-->
 	        </div><!--//row-->
         </div><!--//container-->
@@ -61,13 +69,13 @@
             <div class="primary col-lg-8 col-12">
                 <section class="about section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Обо мне</h2>
+                        <h2 class="heading" data-i18n="about">Обо мне</h2>
                         <div class="content">
-                            <p><strong>Python Backend Developer</strong> с опытом работы <strong>больше 6 лет</strong>, специализирующийся на высоконагруженных микросервисах, e-commerce решениях и парсинге данных.</p>
+                            <p data-i18n="aboutText1"><strong>Python Backend Developer</strong> с опытом работы <strong>больше 6 лет</strong>, специализирующийся на высоконагруженных микросервисах, e-commerce решениях и парсинге данных.</p>
 
-                            <p>Перед поступлением в университет начала интересоваться программированием — направлением разработки. Поскольку backend можно вполне изучить самостоятельно, я занималась изучением этого направления в областях AQA, Web и парсинга. Также меня интересует направление ИИ, так как будущее за ними. Увлекаюсь темой алгоритмической торговли — хочу в будущем написать нейросеть, анализирующую рынок.</p>
+                            <p data-i18n="aboutText2">Перед поступлением в университет начала интересоваться программированием — направлением разработки. Поскольку backend можно вполне изучить самостоятельно, я занималась изучением этого направления в областях AQA, Web и парсинга. Также меня интересует направление ИИ, так как будущее за ними. Увлекаюсь темой алгоритмической торговли — хочу в будущем написать нейросеть, анализирующую рынок.</p>
 
-                            <p>За время работы занималась проектированием backend-архитектуры с нуля, оптимизацией производительности API, автоматизацией CI/CD процессов и построением систем мониторинга. Обожаю улучшать рабочие процессы в команде и помогать младшим сотрудникам с решением сложных вопросов.</p>
+                            <p data-i18n="aboutText3">За время работы занималась проектированием backend-архитектуры с нуля, оптимизацией производительности API, автоматизацией CI/CD процессов и построением систем мониторинга. Обожаю улучшать рабочие процессы в команде и помогать младшим сотрудникам с решением сложных вопросов.</p>
 
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -75,24 +83,24 @@
 
                <section class="latest section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Ключевые проекты</h2>
+                        <h2 class="heading" data-i18n="keyProjects">Ключевые проекты</h2>
                         <div class="content">
 
                             <div class="item featured text-center">
-                                <h3 class="title mb-3">SaaS-платформа парсинга и мониторинга данных</h3>
+                                <h3 class="title mb-3" data-i18n="project1Title">SaaS-платформа парсинга и мониторинга данных</h3>
 
                                 <div class="desc text-start">
-                                    <p>Разработка и поддержка SaaS-платформы для парсинга и мониторинга данных из <strong>80+ внешних источников</strong> (маркетплейсы, сайты поставщиков). Платформа используется несколькими внутренними командами (аналитика, BI, отдел парсинга) как единая точка управления и наблюдения за сбором данных.</p>
+                                    <p data-i18n="project1Desc1">Разработка и поддержка SaaS-платформы для парсинга и мониторинга данных из <strong>80+ внешних источников</strong> (маркетплейсы, сайты поставщиков). Платформа используется несколькими внутренними командами (аналитика, BI, отдел парсинга) как единая точка управления и наблюдения за сбором данных.</p>
 
-                                    <p><strong>Моя роль:</strong> Backend-архитектура, разработка и поддержка микросервисов, работа с production, code review.</p>
+                                    <p data-i18n="project1Role"><strong>Моя роль:</strong> Backend-архитектура, разработка и поддержка микросервисов, работа с production, code review.</p>
 
-                                    <p><strong>Технологии:</strong> Django, FastAPI, PostgreSQL, ClickHouse, Kafka, RabbitMQ, Celery, CI/CD</p>
+                                    <p data-i18n="project1Tech"><strong>Технологии:</strong> Django, FastAPI, PostgreSQL, ClickHouse, Kafka, RabbitMQ, Celery, CI/CD</p>
 
-                                    <p><strong>Результаты:</strong></p>
+                                    <p data-i18n="project1Results"><strong>Результаты:</strong></p>
                                     <ul>
-                                        <li>Ускорение API на 35%</li>
-                                        <li>Стабильность сбора данных ~95%</li>
-                                        <li>Платформа используется 3 командами</li>
+                                        <li data-i18n="project1Result1">Ускорение API на 35%</li>
+                                        <li data-i18n="project1Result2">Стабильность сбора данных ~95%</li>
+                                        <li data-i18n="project1Result3">Платформа используется 3 командами</li>
                                     </ul>
                                 </div><!--//desc-->
                             </div><!--//item-->
@@ -100,18 +108,18 @@
 
                             <div class="item row">
                                 <div class="desc col-md-12 col-12">
-                                    <h3 class="title">Система мониторинга и тестирования парсеров</h3>
-                                    <p class="mb-2">Разработка сервиса для автоматического тестирования парсеров с уведомлениями через Telegram и push. Система сразу подсвечивает проблемные места в коде.</p>
-                                    <p><strong>Результат:</strong> Сократила время восстановления (MTTR) с недели до 1-2 дней.</p>
-                                    <p class="mb-0"><strong>Стек:</strong> Python, Django, pytest, Telegram Bot API, CI/CD</p>
+                                    <h3 class="title" data-i18n="project2Title">Система мониторинга и тестирования парсеров</h3>
+                                    <p class="mb-2" data-i18n="project2Desc">Разработка сервиса для автоматического тестирования парсеров с уведомлениями через Telegram и push. Система сразу подсвечивает проблемные места в коде.</p>
+                                    <p data-i18n="project2Result"><strong>Результат:</strong> Сократила время восстановления (MTTR) с недели до 1-2 дней.</p>
+                                    <p class="mb-0" data-i18n="project2Stack"><strong>Стек:</strong> Python, Django, pytest, Telegram Bot API, CI/CD</p>
                                 </div><!--//desc-->
                             </div><!--//item-->
 
                             <div class="item row">
                                 <div class="desc col-md-12 col-12">
-                                    <h3 class="title">Система сбора данных (парсинг 80+ источников)</h3>
-                                    <p class="mb-2">Проектирование и реализация системы парсинга данных о ценах и товарных остатках. Использование асинхронных воркеров, системы ротации прокси, семафоров и rate limiting.</p>
-                                    <p class="mb-0"><strong>Стек:</strong> Python, Selenium, Playwright, BeautifulSoup4, Camoufox, Botasaurus, asyncio</p>
+                                    <h3 class="title" data-i18n="project3Title">Система сбора данных (парсинг 80+ источников)</h3>
+                                    <p class="mb-2" data-i18n="project3Desc">Проектирование и реализация системы парсинга данных о ценах и товарных остатках. Использование асинхронных воркеров, системы ротации прокси, семафоров и rate limiting.</p>
+                                    <p class="mb-0" data-i18n="project3Stack"><strong>Стек:</strong> Python, Selenium, Playwright, BeautifulSoup4, Camoufox, Botasaurus, asyncio</p>
                                 </div><!--//desc-->
                             </div><!--//item-->
 
@@ -121,31 +129,31 @@
 
                 <section class="projects section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Другие проекты</h2>
+                        <h2 class="heading" data-i18n="otherProjects">Другие проекты</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Сервис контроля качества данных</h3>
-                                <p class="summary">Разработка системы автоматической валидации данных из сотен источников. Django + DRF + Celery для обработки больших объемов данных с 20+ столбцами характеристик товаров.</p>
+                                <h3 class="title" data-i18n="otherProject1Title">Сервис контроля качества данных</h3>
+                                <p class="summary" data-i18n="otherProject1Desc">Разработка системы автоматической валидации данных из сотен источников. Django + DRF + Celery для обработки больших объемов данных с 20+ столбцами характеристик товаров.</p>
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="title">Платформа аналитических дашбордов</h3>
-                                <p class="summary">Создание платформы для визуализации и анализа данных. Django + FastAPI + PostgreSQL для обработки и агрегации больших объемов данных с интеграцией BI-систем.</p>
+                                <h3 class="title" data-i18n="otherProject2Title">Платформа аналитических дашбордов</h3>
+                                <p class="summary" data-i18n="otherProject2Desc">Создание платформы для визуализации и анализа данных. Django + FastAPI + PostgreSQL для обработки и агрегации больших объемов данных с интеграцией BI-систем.</p>
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="title">Telegram-бот для студентов</h3>
-                                <p class="summary">Разработка бота на aiogram с Django webapp для напоминаний о дедлайнах и событиях. Интеграция с университетскими системами (Moodle API).</p>
+                                <h3 class="title" data-i18n="otherProject3Title">Telegram-бот для студентов</h3>
+                                <p class="summary" data-i18n="otherProject3Desc">Разработка бота на aiogram с Django webapp для напоминаний о дедлайнах и событиях. Интеграция с университетскими системами (Moodle API).</p>
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="title">Платформа для квизов и презентаций</h3>
-                                <p class="summary">Веб-приложение на Django для проведения интерактивных квизов. Преподаватели загружают презентации и создают квизы на основе содержимого для обучения.</p>
+                                <h3 class="title" data-i18n="otherProject4Title">Платформа для квизов и презентаций</h3>
+                                <p class="summary" data-i18n="otherProject4Desc">Веб-приложение на Django для проведения интерактивных квизов. Преподаватели загружают презентации и создают квизы на основе содержимого для обучения.</p>
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="title">API для интеграции между отделами</h3>
-                                <p class="summary">Проектирование и разработка с нуля API на FastAPI для обмена данными между отделами организации. Руководство командой из 2 разработчиков. Система аутентификации и управления правами доступа.</p>
+                                <h3 class="title" data-i18n="otherProject5Title">API для интеграции между отделами</h3>
+                                <p class="summary" data-i18n="otherProject5Desc">Проектирование и разработка с нуля API на FastAPI для обмена данными между отделами организации. Руководство командой из 2 разработчиков. Система аутентификации и управления правами доступа.</p>
                             </div><!--//item-->
 
                         </div><!--//content-->
@@ -154,36 +162,36 @@
 
                 <section class="experience section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Опыт работы</h2>
+                        <h2 class="heading" data-i18n="experience">Опыт работы</h2>
                         <div class="content">
-                            <p class="mb-4"><strong>Общий опыт:</strong> больше 6 лет в коммерческой разработке</p>
+                            <p class="mb-4" data-i18n="totalExp"><strong>Общий опыт:</strong> больше 6 лет в коммерческой разработке</p>
 
                             <div class="item">
-                                <h3 class="title">Python Backend Developer - <span class="place">E-Commerce</span> <span class="year">(~2.5 года)</span></h3>
-                                <p>Работа с высоконагруженными микросервисами и SaaS-платформой для парсинга данных из 80+ источников.</p>
-                                <p><strong>Ключевые обязанности:</strong></p>
+                                <h3 class="title" data-i18n="exp1Title">Python Backend Developer - <span class="place">E-Commerce</span> <span class="year">(~2.5 года)</span></h3>
+                                <p data-i18n="exp1Desc">Работа с высоконагруженными микросервисами и SaaS-платформой для парсинга данных из 80+ источников.</p>
+                                <p data-i18n="exp1Duties"><strong>Ключевые обязанности:</strong></p>
                                 <ul>
-                                    <li>Разработка и поддержка высоконагруженных микросервисов (12+ сервисов)</li>
-                                    <li>Проектирование backend-архитектуры и микросервисной экосистемы</li>
-                                    <li>Работа с асинхронным взаимодействием через Kafka и RabbitMQ</li>
-                                    <li>Внедрение CI/CD для автоматизации деплоев</li>
-                                    <li>Code review и менторинг младших разработчиков</li>
+                                    <li data-i18n="exp1Duty1">Разработка и поддержка высоконагруженных микросервисов (12+ сервисов)</li>
+                                    <li data-i18n="exp1Duty2">Проектирование backend-архитектуры и микросервисной экосистемы</li>
+                                    <li data-i18n="exp1Duty3">Работа с асинхронным взаимодействием через Kafka и RabbitMQ</li>
+                                    <li data-i18n="exp1Duty4">Внедрение CI/CD для автоматизации деплоев</li>
+                                    <li data-i18n="exp1Duty5">Code review и менторинг младших разработчиков</li>
                                 </ul>
-                                <p><strong>Достижения:</strong> Ускорение API на 35%, снижение MTTR в 2 раза, разработка асинхронного фреймворка</p>
+                                <p data-i18n="exp1Achievements"><strong>Достижения:</strong> Ускорение API на 35%, снижение MTTR в 2 раза, разработка асинхронного фреймворка</p>
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="title">Python Backend Developer - <span class="place">Retail</span> <span class="year">(~1.5 года)</span></h3>
-                                <p>Работа в крупной ритейл-компании с фокусом на сбор и обработку данных из сотен источников.</p>
-                                <p><strong>Обязанности:</strong> Разработка сервисов парсинга и ETL, создание API, проектирование БД, реализация очередей задач, оптимизация асинхронных сервисов.</p>
-                                <p><strong>Достижения:</strong> Реализовала систему сбора данных из 70+ источников, оптимизировала время обработки на 40%</p>
+                                <h3 class="title" data-i18n="exp2Title">Python Backend Developer - <span class="place">Retail</span> <span class="year">(~1.5 года)</span></h3>
+                                <p data-i18n="exp2Desc">Работа в крупной ритейл-компании с фокусом на сбор и обработку данных из сотен источников.</p>
+                                <p data-i18n="exp2Duties"><strong>Обязанности:</strong> Разработка сервисов парсинга и ETL, создание API, проектирование БД, реализация очередей задач, оптимизация асинхронных сервисов.</p>
+                                <p data-i18n="exp2Achievements"><strong>Достижения:</strong> Реализовала систему сбора данных из 70+ источников, оптимизировала время обработки на 40%</p>
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="title">Python Backend Developer - <span class="place">Education</span> <span class="year">(~2 года)</span></h3>
-                                <p>Начало карьеры в университетском центре аналитики. Получила первую практику создания архитектуры систем с нуля.</p>
-                                <p><strong>Обязанности:</strong> Разработка на Django и FastAPI, интеграция с внутренними системами, проектирование БД, автоматизация ETL-процессов.</p>
-                                <p><strong>Достижения:</strong> Создала ETL-сервис для 5+ систем, повысила покрытие тестами с 40% до 80%, спроектировала API для обмена данными</p>
+                                <h3 class="title" data-i18n="exp3Title">Python Backend Developer - <span class="place">Education</span> <span class="year">(~2 года)</span></h3>
+                                <p data-i18n="exp3Desc">Начало карьеры в университетском центре аналитики. Получила первую практику создания архитектуры систем с нуля.</p>
+                                <p data-i18n="exp3Duties"><strong>Обязанности:</strong> Разработка на Django и FastAPI, интеграция с внутренними системами, проектирование БД, автоматизация ETL-процессов.</p>
+                                <p data-i18n="exp3Achievements"><strong>Достижения:</strong> Создала ETL-сервис для 5+ систем, повысила покрытие тестами с 40% до 80%, спроектировала API для обмена данными</p>
                             </div><!--//item-->
 
                         </div><!--//content-->
@@ -197,10 +205,9 @@
                         <h2 class="heading sr-only">Контактная информация</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Местоположение:</span>Москва, Россия</li>
-                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:anastasia.rem.work@yandex.ru">anastasia.rem.work@yandex.ru</a></li>
-                                <li><i class="fa-brands fa-telegram"></i><span class="sr-only">Telegram:</span><a href="https://t.me/anastasia_belish" target="_blank">@anastasia_belish</a></li>
-                                <li><i class="fas fa-phone"></i><span class="sr-only">Телефон:</span><a href="tel:+79827148232">+7 (982) 714-82-32</a></li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only" data-i18n="email">Email:</span><a href="mailto:anastasia.rem.work@yandex.ru">anastasia.rem.work@yandex.ru</a></li>
+                                <li><i class="fa-brands fa-telegram"></i><span class="sr-only" data-i18n="telegram">Telegram:</span><a href="https://t.me/anastasia_belish" target="_blank">@anastasia_belish</a></li>
+                                <li><i class="fas fa-phone"></i><span class="sr-only" data-i18n="phone">Телефон:</span><a href="tel:+79827148232">+7 (982) 714-82-32</a></li>
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -208,9 +215,9 @@
 
                 <aside class="skills aside section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Технологии</h2>
+                        <h2 class="heading" data-i18n="technologies">Технологии</h2>
                         <div class="content">
-                            <p class="intro">Основной стек технологий, с которыми работаю на постоянной основе:</p>
+                            <p class="intro" data-i18n="skillsIntro">Основной стек технологий, с которыми работаю на постоянной основе:</p>
 
                             <div class="skillset">
 
@@ -347,12 +354,12 @@
 
                 <aside class="education aside section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Образование</h2>
+                        <h2 class="heading" data-i18n="education">Образование</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Прикладная информатика</h3>
-                                <h4 class="university">Алгоритмы искусственного интеллекта <span class="year">(2024)</span></h4>
-                                <p class="text-muted">Уральский федеральный университет</p>
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> <span data-i18n="educationTitle">Прикладная информатика</span></h3>
+                                <h4 class="university" data-i18n="educationSpec">Алгоритмы искусственного интеллекта <span class="year">(2024)</span></h4>
+                                <p class="text-muted" data-i18n="educationUni">Уральский федеральный университет</p>
                             </div><!--//item-->
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -360,16 +367,16 @@
 
                 <aside class="languages aside section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Языки</h2>
+                        <h2 class="heading" data-i18n="languages">Языки</h2>
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li class="item">
-                                    <span class="title"><strong>Русский:</strong></span>
-                                    <span class="level">Родной <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                    <span class="title"><strong data-i18n="russian">Русский:</strong></span>
+                                    <span class="level"><span data-i18n="russianLevel">Родной</span> <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
                                 </li><!--//item-->
                                 <li class="item">
-                                    <span class="title"><strong>Английский:</strong></span>
-                                    <span class="level">B2 - Средне-продвинутый <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
+                                    <span class="title"><strong data-i18n="english">Английский:</strong></span>
+                                    <span class="level"><span data-i18n="englishLevel">B2 - Средне-продвинутый</span> <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
                                 </li><!--//item-->
                             </ul>
                         </div><!--//content-->
@@ -383,7 +390,6 @@
     <!-- ******FOOTER****** -->
     <footer class="footer">
         <div class="container text-center">
-                <small class="copyright">Designed by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> | Adapted by 4DeathClaw</small>
         </div><!--//container-->
     </footer><!--//footer-->
 
@@ -393,6 +399,8 @@
     <script type="text/javascript" src="assets_new/plugins/dark-mode-switch/dark-mode-switch.min.js"></script>
     <!-- custom js -->
     <script type="text/javascript" src="assets_new/js/main.js"></script>
+    <!-- i18n js -->
+    <script type="text/javascript" src="assets_new/js/i18n.js"></script>
 
     <!-- Initialize dark mode -->
     <script>
