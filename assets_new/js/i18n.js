@@ -96,6 +96,9 @@ const translations = {
         english: "Английский:",
         englishLevel: "B2 - Средне-продвинутый",
 
+        // Availability
+        availability: "<i class='fas fa-briefcase'></i> Рассматриваю предложения о работе",
+
         // Contact
         location: "Местоположение:",
         locationValue: "Москва, Россия",
@@ -201,6 +204,9 @@ const translations = {
         russianLevel: "Native",
         english: "English:",
         englishLevel: "B2 - Upper-Intermediate",
+
+        // Availability
+        availability: "<i class='fas fa-briefcase'></i> Considering job offers",
 
         // Contact
         location: "Location:",

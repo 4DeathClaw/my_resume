@@ -97,6 +97,23 @@ a.btn-cta-secondary:hover, a.btn-cta-secondary:not(:disabled):not(.disabled):act
   color: #32383e;
 }
 
+.availability-badge {
+  background: #3AAA64;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.availability-badge p {
+  color: #fff;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.availability-badge .svg-inline--fa {
+  margin-right: 6px;
+}
+
 .badge-theme {
   background: #3AAA64;
   font-size: 12px;
